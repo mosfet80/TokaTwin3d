@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>TokaTwin3d Workbench</name>
+  <description>Digital twin for FreeCAD workbench frontend.</description>
+  <version>0.1</version>
+  <date>2026-10-10</date>
+  <maintainer email="software@horusdefense.com">Andrea Reale</maintainer>
+  <depend>numpy</depend>
+  <depend>matplotlib</depend>
+  <depend>atomicwrites</depend>
+  <depend>pyzmq</depend>
+  <license file="LICENSE.txt">BSD3-or-later</license>
+  <url type="repository" branch="master">https://github.com/mosfet80/TokaTwin3d.git</url>
+  <url type="readme">https://github.com/mosfet80/TokaTwin3d.git/master/README.md</url>
+  <icon>workbench.svg</icon>
+  <content>
+    <workbench>
+      <classname>TokaTwin3dWorkbench</classname>
+    </workbench>
+  </content>
+</package>
